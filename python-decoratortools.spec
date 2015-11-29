@@ -14,7 +14,7 @@ Source0:	http://pypi.python.org/packages/source/D/DecoratorTools/%{module}-%{ver
 # Source0-md5:	f161004115c3d04ed976c230c8a91d87
 BuildRequires:	python-devel
 %{?with_tests:BuildRequires:	python-nose}
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-setuptools
 BuildRequires:	unzip
 BuildArch:	noarch
